@@ -1,0 +1,380 @@
+.b1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+body{
+ 
+        background-image: url('purple-abstract-curve-wavy-background_64235-208.avif');
+        background-size: cover; 
+        background-repeat:no-repeat;   
+}
+html{
+     scroll-behavior: smooth; 
+}
+#p1{
+    background-image: url('black\ bg.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat;
+    border: 2px solid black;
+    color: white;
+    padding: 50vh 10vh;
+    margin-left: 60px;
+    margin-top: 10vh;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 30px ;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right:90px;
+    width: 75vh;
+
+}
+#glowing-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 22;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    pointer-events: none;
+    padding-top: 30px;
+}
+#imgbar{
+   margin-left: 40px;
+    margin-top:50px ;
+}
+#pp1{
+    border: 2px solid black;
+    color: white;
+     background-image: url('my\ img\ original1.jpg');
+    transition: box-shadow 0.3s ease; 
+    flex-wrap: wrap; 
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-color: rgb(23, 18, 18);
+    padding-top: 70px;
+    transition: box-shadow 0.3s ease; 
+    padding-bottom: 70px;
+    margin-left: 0vh;
+    padding-left: 60px;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.p2{
+    border: 1px solid black;
+    color: white;
+     padding-bottom: 50px;
+     margin-left: 8vh;
+     margin-right: 4vh;
+     margin-top: 0vh;
+     padding-top: 0px;
+     background-image: url('black\ bg.jpg');
+     background-size: cover; 
+     background-repeat:no-repeat;
+    
+}
+#pp2{
+    border: 2px solid black;
+    color: white;
+    background-image: url('final\ abstract-black-wave-business-background-vector-image.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    
+}
+#pp3{
+    border: 2px solid black;
+    color: white;
+    background-image: url('final\ abstract-black-wave-business-background-vector-image.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#pp4{
+    border: 2px solid black;
+    color: white;
+    background-image: url('final\ abstract-black-wave-business-background-vector-image.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 90px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nn{
+    text-align: end;
+    font-size: 30px;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+button{
+    box-shadow: 0 0 5px darkmagenta,
+    0 0 15px darkmagenta;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    background: transparent;
+    font-size: 20px;
+}
+button:hover{
+    box-shadow: 0 0 5px darkmagenta,
+    0 0 10px darkmagenta, 0 0 50px darkmagenta,
+    0 0 20px darkmagenta;
+}
+ #glowing-text {
+    flex:1;
+    color: #fff;
+    text-shadow: 0 0 1px darkmagenta,
+                 0 0 2px darkmagenta;
+}
+
+
+#pp1:hover{
+  
+        box-shadow: 0 0 5px 7px darkmagenta; 
+    }
+    #pp2:hover{
+  
+        box-shadow: 0 0 5px 7px darkmagenta; 
+    }
+    #pp3:hover{
+  
+        box-shadow: 0 0 5px 7px darkmagenta; 
+    }
+    #pp4:hover{
+  
+        box-shadow: 0 0 5px 7px darkmagenta; 
+        animation: l1;
+        
+        animation-duration: 2s;
+    }
+   .p2:hover.pp4{
+    animation: l1;
+        
+    animation-duration: 2s;
+   }
+    .glow{
+        
+         animation: slideTop 2s ease forwards;
+         
+        box-shadow: 0 0 10px 10px darkmagenta; 
+    }
+    @keyframes slideTop{
+        0%{
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+} 
+.glow1{
+        
+    animation: slideUp 2s ease forwards;
+    
+   box-shadow: 0 0 10px 10px darkmagenta; 
+}
+@keyframes slideUp{
+   0%{
+       transform: translateX(-20px);
+       opacity: 0;
+   }
+   100%{
+       transform: translateX(0px);
+       opacity: 1;
+   }
+} 
+.glow2{
+        
+    animation: slideacross 4s ease-out;
+    
+   box-shadow: 0 0 10px 10px darkmagenta; 
+}
+@keyframes slideacross{
+   0%{
+       transform: translateY(-900px);
+       opacity: 0;
+   }
+   100%{
+       transform: translate(0px);
+       opacity: 1;
+   }
+} 
+.b2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ppa1{
+    background-image: url('final\ abstract-black-wave-business-background-vector-image.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat;
+    border: 2px solid black;
+    color: white;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.ppa1:hover{
+    box-shadow: 0 0 3px 7px darkmagenta; 
+
+}
+#pp5:hover{
+    box-shadow: 0 0 3px 7px darkmagenta; 
+
+}
+#btext{
+    color: darkmagenta;
+}
+#div1{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+    #btt1{
+        margin-left: 11px;
+    }
+    #i1{
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 230px;
+        height: 4px;
+        box-shadow: 0 0 1px 2px darkmagenta;
+        animation: i1;
+        animation-duration: 2s;
+    }
+   
+    @keyframes i1{
+        0%{
+            width: 100px;
+        }
+        50%{
+            width: 0px;
+        }
+       
+        100%{
+            width: 300px;
+        }
+    }
+    #i2{
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 200px;
+        height: 4px;
+        box-shadow: 0 0 1px 2px darkmagenta;
+        animation: i1;
+        animation-duration: 2s;
+    }
+
+    #i3{
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 180px;
+        height: 4px;
+        box-shadow: 0 0 1px 2px darkmagenta;
+        animation: i1;
+        animation-duration: 2s;
+    }
+
+    #i4{
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 100px;
+        height: 4px;
+        box-shadow: 0 0 1px 2px darkmagenta;
+        animation: i1;
+        animation-duration: 2s;
+    }
+
+    #i5{
+        background-color: darkmagenta;
+        display: inline-block;
+        width: 130px;
+        height: 4px;
+        box-shadow: 0 0 1px 2px darkmagenta;
+        animation: i1;
+        animation-duration: 2s;
+    }
+    #bttt{
+        margin-left: 50vh ;    }
+    #fll{
+        background-position: center;
+        background-size: cover;
+        color: white;
+        display: flex;
+       
+    }
+    #grid1{
+        flex: 1;
+        background-image: url(final\ abstract-black-wave-business-background-vector-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 30px;
+        padding: 30px;
+        
+
+    }
+    #grid2{
+        flex: 1;
+        background-image: url(final\ abstract-black-wave-business-background-vector-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 30px;
+        padding: 30px;
+    }
+    #grid3{
+        flex: 1;
+        background-image: url(final\ abstract-black-wave-business-background-vector-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 30px;
+        padding: 30px;
+        
+    }
+    strong{
+        color: darkmagenta;
+    }
+    #pp5{
+        background-image: url(final\ abstract-black-wave-business-background-vector-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px;
+        padding: 60px;
+        margin-top: 60px;
+     }
+
+     #m1{
+        font-size: 25px;
+     }
+     @media screen and (max-width:800px) {
+        .b1{
+            display: inline-block;
+            margin-right: 60px;
+        }
+        .p2{
+display: inline;
+margin-left:50px ;
+        }
+        
+     }

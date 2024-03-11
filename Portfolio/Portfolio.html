@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio  old.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body><!--Left side-->
+    <section class="b1">
+      <div>  <div id="p1">
+        <!--Mini Nav-->
+        <div class="nn">
+          <div class="a13">
+            <button id="b1" onclick="about()" >~About</button></div><br>
+            <button class="al1" id="b2" onclick="skills()" >~Skills</button> <br><br>
+            <button class="a1" id="b3" onclick="contact()" >~Contact</button> <br><br>
+            </div>
+        <!--Intro-->
+          <b>Hello,I'm<br>
+            <div style="color: darkmagenta; font-size: 70px ;">NITISH,</div>Welcome to My Portfolio.</b><br><br>
+             <div style="font-size: 25px; padding-left: 80px;"><em>~Transforming Pixels into Seamless User Journeys</em></div>
+             <!--First One-->
+              <div id="pp1" style="font-size: 30px;">
+                
+               <div id="glowing-text">
+                <button  style="color: mediumvioletred;margin-bottom: 20px;padding: 20px;">About Me</button><br><br>
+               
+                Hello,<br><br>I'm Nitish T,<br> a passionate frontend developer with a love for crafting
+                 beautiful and functional user experiences.<br><br>With few years of experience in web development,
+                  I thrive on turning creative ideas into engaging digital solutions. My expertise lies in transforming designs into responsive
+                   and interactive websites using HTML, CSS, and JavaScript.
+              </div>
+              <div id="imgbar"></div>
+             </div>
+             <!--Second one-->
+             <div class="ppa1">
+              <button id="btt1">Samples</button>
+              <div id="div1">Some Samples of my projects are,</div>
+              <div id="grid1">
+                <i class="fa-solid fa-cart-shopping"></i><br>
+                <p style="font-size: 25px;"><strong> APPZINN</strong>- E-Commerce Web page</p>
+                <button id="bttt">Visit</button>
+               </div>
+               
+               <div id="grid2">
+                <i class="fa-solid fa-gamepad"></i><br>
+                <p style="font-size: 25px;"><strong> MUSICAL BOX</strong>- Gameplay</p>
+                <button id="bttt">Visit</button>
+
+        
+               </div>
+               <div id="grid3">
+                <i class="fa-solid fa-calculator"></i><br>
+                <p style="font-size: 25px;"><strong>CALCULATOR</strong></p>
+                <button id="bttt">Visit</button>
+
+               </div>
+
+            </div>
+          </div>
+          </div>
+       
+       <!--Right side--> 
+          <div class="p2">
+            <!--First One-->
+            <div id="pp2"><button style="color: mediumvioletred;">My Familiar Skills</button><br><br>
+            <br><h4>As a frontend developer,I'm Expertise in, </h4>
+            <b id="btext">-</b> Building Responsive Layouts<br><br>
+            <b id="btext">-</b> Styling with CSS<br><br> 
+            <b id="btext">-</b> Interactivity with JavaScript<br><br>
+            <b id="btext">-</b> Optimizing Performance,...</div>
+            <!--Second one-->
+            <div id="pp4">
+
+              <button onclick="reload()">Technical Skills</button><br><br><br>
+              <h3>HTML_<i class="fa-brands fa-html5"></i></h3>
+              <div id="i1"><div id=pnt></div><br></div>
+              <h3>CSS_<i class="fa-brands fa-css3-alt"></i></h3>
+              <div id="i2"><div id=pnt></div><br></div>
+              <h3>JavaScript_<i class="fa-brands fa-js"></i></h3>
+              <div id="i3"><div id=pnt></div><br></div>
+              <h3>C++_<i class="fa-regular fa-c"></i></h3>
+              <div id="i4"><div id=pnt></div><br></div>
+              <h3>Python_<i class="fa-brands fa-python"></i></h3>
+              <div id="i5"><div id=pnt></div><br></div>
+
+            </div>
+          <!--Third One-->
+          <div id="pp3"><button>Contact Me</button><br><br><br><br>
+            <button id="btnc"><i class="fa-brands fa-facebook"></i></button>
+            <button id="btnc"><i class="fa-brands fa-whatsapp"></i></button>
+            <button id="btnc"><i class="fa-brands fa-twitter"></i></button>
+            <button id="btnc"><i class="fa-brands fa-github"></i></button>
+            <button id="btnc"><i class="fa-brands fa-linkedin"></i></button>
+          </div>
+          <div id="pp5">
+           <button> Thank You!</button><br><br><br>
+           <p id="m1">For Further Informations,</p><br>
+           <p  id="m1">Mail: </p><br>
+          <button> <i class="fa-regular fa-envelope"></i></button>
+          </div>
+        </div>
+
+    </section>
+    
+      <!--End Page-->  
+      
+    <script>
+      function about(){
+       const box=  document.getElementById('pp1');
+       box.classList.toggle('glow');
+
+       setTimeout (function(){
+         box.classList.remove('glow');
+       },3000);
+      }
+      function skills(){
+       const box=  document.getElementById('pp2');
+       box.classList.toggle('glow1');
+        techskills();
+       setTimeout (function(){
+         box.classList.remove('glow1');
+       },3000);
+      }
+      function techskills(){
+       const box=  document.getElementById('pp4');
+       box.classList.toggle('glow1');
+
+       setTimeout (function(){
+         box.classList.remove('glow1');
+       },3000);
+      }
+      function contact(){
+       const box=  document.getElementById('pp3');
+       box.classList.toggle('glow2');
+
+       setTimeout (function(){
+         box.classList.remove('glow2');
+       },3000);
+      }
+      function reload(){
+        window.location.reload();
+      }
+    </script>
+</body>
+</html>
